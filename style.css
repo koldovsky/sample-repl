@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+ 
+:root {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    max-width: 980px;
+    margin: auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+ .container-header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-color:pink;
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 32px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: italic; 
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.header-body {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+
+.social-media-button {
+display: flex;
+color: white;
+background-color: black;
+cursor: pointer;
+}
+
+.social-media-button:hover {
+  background-color: red;
+}
+
+.banner {
+    background-image: url(../img/ringg.png);
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: left;
+}
+
+.banner banner-text {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner .info-btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f52e62;
+  color: white;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  padding: 19px 21px;
+  width:transparent;
+  font-size: 12px;
+}
+
+.decor-banner-image {
+  display: inline-block;
+  width: 300px;
+  margin: auto;
+  left: 0;
+}
+
+h1 {
+  display: block;
+  font-size: 99px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+h2, h3 {
+  font-size: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.banner p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.menu-items a:hover {
+  color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.collection-list .card {
+  max-width: 300px;
+  }
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.new-collections {
+  background-color: #f5f5f5;
+   font-family: 'Nanum Myeongjo', serif;
+}
+
+.new-collections h2, .diamond-container h2 {
+  padding-top: 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.decor-image {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+ 
+.collection-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.collection-list .card {
+  max-width: 320px;
+}
+
+.collection-list .card img {
+ display: block;
+ width: 90%;
+ margin: auto;
+}
+
+.collection-list .card h3 {
+text-align: center;
+font-size: 22px;
+margin: 25px 0;
+  }
+
+.uniqueness-container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.our-uniqueness {
+  background-color: black;
+}
+
+.our-uniqueness  h2 {
+  padding-top: 110px;
+  font-size: 30px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.decor-image {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+
+.unique-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.unique-list .uniqueness-card {
+  max-width: 320px;
+}
+
+.unique-list .uniqueness-card img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.unique-list .uniqueness-card h3 {
+  text-align: center;
+  font-size: 22px;
+  margin: 25px 0;
+  color: #f5f5f5;
+}
+
+.diamond-container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.our-diamond {
+  background-color: white;
+}
+
+.our-diamond  h2 {
+  padding-top: 110px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.decor-image {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+
+.diamond-list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.diamond-list .diamond-card img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.diamond-list .diamond-card h3 {
+  text-align: center;
+  font-size: 22px;
+  margin: 25px 0;
+  color: #f5f5f5;
+}
+
+.diamond-one {
+  grid-area: 1/1/3/3;
+}
